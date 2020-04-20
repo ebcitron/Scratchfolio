@@ -1,15 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
+import theMeat from './components/TheMeat';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h3>Header H3</h3>
       </header>
       <body>
-        <theMeat />
+        {theMeat}
+        hello
       </body>
     </div>
   );
